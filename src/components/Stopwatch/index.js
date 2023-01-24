@@ -55,7 +55,7 @@ class Stopwatch extends Component {
 
   render() {
     const {isTimerRunning} = this.state
-    const time = `${this.renderMinutes()} : ${this.renderSeconds()}`
+    const time = `${this.renderMinutes()}:${this.renderSeconds()}`
 
     return (
       <div className="app-container">
